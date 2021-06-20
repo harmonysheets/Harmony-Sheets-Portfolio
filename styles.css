@@ -1,0 +1,49 @@
+body{        
+    padding-top: 60px;
+    background-color: rgba(0, 139, 7, 0.411);
+}
+header, footer{
+    width: 100%;
+          
+    background: rgb(0, 112, 19);
+    padding: 10px 0;
+    color: #fff;
+}
+header{
+    top: 0;
+    position: fixed;  
+    display: flex;
+}
+header img {
+    width: 100px;
+}
+header nav {
+}
+footer{
+    bottom: 0;
+}
+main{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */  
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+/* Program styles */
+
+main article {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main article section {
+    justify-items: center;
+}
